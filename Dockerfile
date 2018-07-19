@@ -43,4 +43,5 @@ RUN git clone https://github.com/rbenv/rbenv.git ~/.rbenv \
 
 RUN mkdir -p $GOPATH/src/github.com/Originate/git-town
 WORKDIR $GOPATH/src/github.com/Originate/git-town
+
 ENV PATH $GOPATH/src/github.com/Originate/git-town/bin:/home/go/.rbenv/shims:/home/go/.rbenv/bin:$GOPATH/bin:/usr/local/go/bin:$PATH
